@@ -1,3 +1,17 @@
+/*
+ * Hashtable implementation
+ *
+ * The hash function used is MurmurHasv3, created by Austin Appleby.
+ * Seungyoung Kim has ported its implementation into C language
+ * and published it as a part of qLibc Project
+
+ * Copyright (C) 2014 Pedro Javier RoRo
+ *
+ * This file is licensed under the terms of the GNU General Public License
+ * version 2. This program is licensed "as is" without any warranty of any
+ * kind, whether express or implied.
+ */
+
 #ifndef _HASHTABLE_C_
 	#define _HASHTABLE_C_
 
