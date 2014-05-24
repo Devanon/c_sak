@@ -22,6 +22,7 @@ But I can't find a way of doing it. If you have any idea fork the repo and show 
 ```c
 struct hashtable* init_hashtable()
 int free_hashtable()
+
 void* ht_add_int(ht, int key, void *value)
 void* ht_find_int(ht, int key)
 void* ht_rm_int(ht, int key)
